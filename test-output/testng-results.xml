@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-11T10:09:02 IST" name="BDD Suite" finished-at="2025-09-11T10:10:08 IST" duration-ms="66125">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@10a9d961]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-11T10:09:02 IST" name="Cucumber Tests" finished-at="2025-09-11T10:10:08 IST" duration-ms="66125">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@10a9d961]" started-at="2025-09-11T10:09:02 IST" name="setUpClass" finished-at="2025-09-11T10:09:03 IST" duration-ms="853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@668cc9a2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@10a9d961]" started-at="2025-09-11T10:09:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-11T10:09:16 IST" duration-ms="12880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extracting data from Nse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation For Most Active Futures Contracts Data in NSE"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@10a9d961]" started-at="2025-09-11T10:09:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-11T10:09:24 IST" duration-ms="8381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extracting data from Nse of Rise In OI Rise In Price"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation For Bullish Stocks Rise In OI Rise In Price Data in NSE"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@10a9d961]" started-at="2025-09-11T10:09:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-11T10:09:32 IST" duration-ms="8380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extracting Short Covering Stocks Data from Nse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation For Short Covering Data Slide In Oi Rise Price From NSE"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@10a9d961]" started-at="2025-09-11T10:09:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-11T10:09:41 IST" duration-ms="8029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extracting Most Active Stocks Calls Data from Nse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation For Most Active Stocks calls Data From NSE"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@10a9d961]" started-at="2025-09-11T10:09:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-11T10:09:48 IST" duration-ms="7766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extracting Most Active Stocks Put from Nse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation For Most Active Stocks Puts Data From NSE"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@10a9d961]" started-at="2025-09-11T10:09:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-11T10:10:08 IST" duration-ms="19730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extracting data from chartlink"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation For Most Active Futures Contracts Data in chartlink"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@10a9d961]" started-at="2025-09-11T10:10:08 IST" name="tearDownClass" finished-at="2025-09-11T10:10:08 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Cucumber Tests -->
+  </suite> <!-- BDD Suite -->
+</testng-results>
