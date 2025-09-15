@@ -122,7 +122,7 @@ public class FutureContracts {
 	public static void mostActiveFutureContractUrl() {
 		FirefoxOptions options = new FirefoxOptions();
 		options.addArguments("--headless");
-		driver = new FirefoxDriver();
+		driver = new FirefoxDriver(options);
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
