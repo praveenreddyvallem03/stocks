@@ -134,7 +134,7 @@ public class FutureContracts {
 		String reset = "\u001B[0m";
 		try {
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//			Thread.sleep(2000);
+//			Thread.sleep(3000);
 			WebElement dropdown=driver.findElement(By.xpath("//select[@name='mac_equity_filter']"));
 			Select select=new Select(dropdown);
 			select.selectByVisibleText("Most Active Future Contracts");
@@ -144,7 +144,7 @@ public class FutureContracts {
 			
 //			List<WebElement> rowsElement = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(
 //					"//table[@id='MACEquityTable']//tbody//following::tr//td[text()='Stock Futures']//parent::tr")));
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 			List<WebElement> rFuturesData = driver.findElements(By
 					.xpath("//table[@id='MACEquityTable']//tbody//tr//td//parent::tr//td[2]"));
 			
